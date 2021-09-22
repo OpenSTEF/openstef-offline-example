@@ -1,15 +1,12 @@
 # openstf-offline-example
 
-Very basic examples showing how you can use Openstf in a jupyter notebook on your local machine
+Very basic examples showing how you can use Openstf (github.com/Alliander-opensource/openstf) in a jupyter notebook on your local machine
 
 ## Instructions
 Install:
 pip install -r requirements.txt
 
 Run:
-
-## Links
-Openstf: github.com/Alliander-opensource/openstf
 
 ## License
 This project is licensed under the Mozilla Public License, version 2.0 - see LICENSE for details.
