@@ -1,2 +1,1 @@
-# specify required python version, specifically needed for Binder
 python-3.9
