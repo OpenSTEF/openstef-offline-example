@@ -1,1 +1,1 @@
-openstf~=2.2.2
+openstef~=3.0.5
