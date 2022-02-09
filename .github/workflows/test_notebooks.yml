@@ -44,5 +44,4 @@ jobs:
     - name: Execute all Notebooks
       shell: bash -l {0}
       run: |
-        conda activate jupyter-actions
         pytest
