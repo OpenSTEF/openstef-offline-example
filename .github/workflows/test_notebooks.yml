@@ -39,6 +39,7 @@ jobs:
     # Install
     - name: Install dependencies
       run: |
+        pip install pytest
         pip install -r requirements.txt
 
     - name: Execute all Notebooks
