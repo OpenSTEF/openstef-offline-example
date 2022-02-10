@@ -45,4 +45,4 @@ jobs:
     # Test
     - name: Test notebooks
       run: |
-        pytest --nbmake -nbmake-kernel=openstf-offline-example **/*ipynb
+        pytest --nbmake --nbmake-kernel=openstf-offline-example **/*ipynb
