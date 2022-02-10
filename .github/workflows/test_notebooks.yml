@@ -1,6 +1,7 @@
 name: Test-Notebooks
 
 # Run every time a new commit is pushed
+# For more info, see: https://github.com/treebeardtech/nbmake
 on: push
 
 jobs:
@@ -39,10 +40,10 @@ jobs:
     # Install
     - name: Install dependencies
       run: |
-        pip install pytest
+        pip install pytest nbmake
         pip install -r requirements.txt
 
-    - name: Execute all Notebooks
-      shell: bash -l {0}
+    # Test
+    - name: Test notebooks
       run: |
-        pytest
+        pytest --nbmake --nbmake-kernel=python3 **/*ipynb
