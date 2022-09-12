@@ -2,7 +2,7 @@
 
 # Domain Adaptation for Zero Shot Learning in Sequence (DAZLS)
 
-DAZLS is an energy splitting function in openSTEF. Is a technique which transfers knowledge from complete-information substations to incomplete-information substations for solar and wind power prediction. It is being used in openstef/pipeline/create_component_forecast.py to issue the prediction.
+DAZLS is an energy splitting function in openSTEF. Is a technique which transfers knowledge from complete-information substations to incomplete-information substations for solar and wind power prediction. It is being used in ["create_component_forecast.py"](https://github.com/OpenSTEF/openstef/blob/main/openstef/pipeline/create_component_forecast.py) to issue the prediction.
 
 This function trains a splitting model on data from multiple substations with known components and uses this model to carry out a prediction for target substations with unknown components. The training data from the known substations include weather, location, and total load information of each substation and predicts the solar and the wind power of the target substations.
 
@@ -17,5 +17,5 @@ For more information about DAZLS model, see: Teng, S.Y., van Nooten, C. C., van 
     Improving Near Real-Time Predictions of Renewable Electricity Production at Substation Level (Submitted)
 
 HOW TO USE:
-The code which loads and stores the DAZLS model is in the notebook file "train_component_model.ipynb" (icarus-analyses/analyses/energy_splitting_dazl). When running this notebook, the "dazls_stored.sav" file is being produced and can be used in the prediction pipeline. It is important, whenever there are changes in the "dazls.py" file (contained in openstef/model/regressors), to run again the notebook (train_component_model.ipynb) and use the newly produced dazls_stored.sav file in the repository.   
+The code which loads and stores the DAZLS model is in the notebook file ["train_component_model.ipynb"](https://github.com/Alliander/icarus-analyses/blob/new-splitting-model/analyses/energy_splitting_dazl/BetterDazls/train_component_model.ipynb). When running this notebook, a "dazls_stored.sav" file is being produced and can be used in the prediction pipeline. It is important, whenever there are changes in the ["dazls.py"](https://github.com/OpenSTEF/openstef/blob/main/openstef/model/regressors/dazls.py), to run again the notebook (train_component_model.ipynb) and use the newly produced dazls_stored.sav file in the repository.   
 
