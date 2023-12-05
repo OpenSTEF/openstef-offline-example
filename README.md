@@ -1,4 +1,4 @@
-# openstf-offline-example
+# openstef-offline-example
 
 Very basic examples showing how you can use OpenSTEF (https://github.com/OpenSTEF/openstef) in a jupyter notebook on your local machine
 
