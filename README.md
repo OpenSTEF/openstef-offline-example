@@ -1,6 +1,22 @@
 # openstef-offline-example
 
-Very basic examples showing how you can use OpenSTEF (https://github.com/OpenSTEF/openstef) in a jupyter notebook on your local machine
+Very basic examples showing how you can use (OpenSTEF)[https://github.com/OpenSTEF/openstef] in a jupyter notebook on your local machine. 
+
+The following example notebooks are available: 
+01. Train a model using high-level pipelines
+02. Evaluate performance using Backtest Pipeline
+04. Test_on_difficult_cases
+05. Split net load into Components
+06. Analyzing perturbed inputs
+07. Obtain derived features
+
+## Table of contents 
+- (Instructions)[##instructions]
+- (License)[##license]
+- (Licenses third-party libraries)[##Licenses-third-party-libraries]
+- (Contributing)[##contributing]
+- (Contact)[##contact]
+
 
 ## Instructions
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/alliander-opensource/openstf-offline-example/master)
