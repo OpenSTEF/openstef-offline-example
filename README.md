@@ -11,11 +11,11 @@ The following example notebooks are available:
 07. Obtain derived features
 
 ## Table of contents 
-- (Instructions)[##instructions]
-- (License)[##license]
-- (Licenses third-party libraries)[##Licenses-third-party-libraries]
-- (Contributing)[##contributing]
-- (Contact)[##contact]
+- [Instructions](##instructions)
+- [License](##license)
+- [Licenses third-party libraries](##Licenses-third-party-libraries)
+- [Contributing](##contributing)
+- [Contact](##contact)
 
 
 ## Instructions
