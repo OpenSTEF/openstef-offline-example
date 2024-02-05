@@ -1,3 +1,4 @@
-openstef==3.4.5
 jupyter==1.0.0
 jupyterlab~=3.6.2
+nbformat=4.2
+openstef==3.4.7

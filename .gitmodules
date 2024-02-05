@@ -1,0 +1,4 @@
+[submodule "openstef"]
+	path = openstef
+	url = https://github.com/OpenSTEF/openstef.git
+	branch = Update-pandas
