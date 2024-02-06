@@ -129,4 +129,6 @@ dmypy.json
 .pyre/
 
 # Trained models
-*trained_models*
+mlflow_artifacts/
+mlflow_trained_models/
+trained_models/
