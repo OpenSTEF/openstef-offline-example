@@ -7,11 +7,11 @@ You can also use Binder to explore the notebooks in an online, interactive envir
 
 The following example notebooks are available: 
 01. Train a model using high-level pipelines
-02. Evaluate performance using Backtest Pipeline
-04. Test_on_difficult_cases
-05. Split net load into Components
-06. Analyzing perturbed inputs
-07. Obtain derived features
+02. Train a model and perform a backtest
+03. Train a model and make a forecast
+04. Split net load into components using DAZLs
+05. Obtain derived features
+06. Analyzing perturbed inputs 
 
 ## Table of contents 
 - [Instructions](##instructions)
