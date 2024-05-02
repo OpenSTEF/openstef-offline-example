@@ -1,3 +1,2 @@
-jupyter==1.0.0
-jupyterlab~=3.6.2
-openstef==3.4.12
+jupyter
+openstef==3.4.25
