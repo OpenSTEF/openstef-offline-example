@@ -1,7 +1,7 @@
 # openstef-offline-example
 
 > [!WARNING]
-> This repository will soon be archived as part of the OpenSTEF V3 deprecation. Please refer to [OpenSTEF V4](https://github.com/OpenSTEF/openstef) for the latest OpenSTEF version which includes example notebooks and tutorials to help you get started.
+> This repository is archived as part of the OpenSTEF V3 deprecation. Please refer to [OpenSTEF V4](https://github.com/OpenSTEF/openstef) for the latest OpenSTEF version which includes example notebooks and tutorials to help you get started.
 
 Very basic examples showing how you can use [OpenSTEF](https://github.com/OpenSTEF/openstef) in a jupyter notebook on your local machine. 
 
